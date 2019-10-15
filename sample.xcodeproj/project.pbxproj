@@ -22,6 +22,8 @@
 		0BDC352223557068001686FC /* UIFontExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDC352123557068001686FC /* UIFontExtension.swift */; };
 		0BDC35282355A3DD001686FC /* ReviewRewardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDC35262355A3DD001686FC /* ReviewRewardCell.swift */; };
 		0BDC35292355A3DD001686FC /* ReviewRewardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0BDC35272355A3DD001686FC /* ReviewRewardCell.xib */; };
+		0BDC352C2355D09C001686FC /* SearchLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDC352B2355D09C001686FC /* SearchLocationViewController.swift */; };
+		0BDC352F2355D0C6001686FC /* SearchLocation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BDC352E2355D0C6001686FC /* SearchLocation.storyboard */; };
 		EFB184834626F9AE379650F8 /* Pods_sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96CF866A7A98CE8F33CEDB69 /* Pods_sample.framework */; };
 /* End PBXBuildFile section */
 
@@ -43,6 +45,8 @@
 		0BDC352123557068001686FC /* UIFontExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFontExtension.swift; sourceTree = "<group>"; };
 		0BDC35262355A3DD001686FC /* ReviewRewardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewRewardCell.swift; sourceTree = "<group>"; };
 		0BDC35272355A3DD001686FC /* ReviewRewardCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReviewRewardCell.xib; sourceTree = "<group>"; };
+		0BDC352B2355D09C001686FC /* SearchLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchLocationViewController.swift; sourceTree = "<group>"; };
+		0BDC352E2355D0C6001686FC /* SearchLocation.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SearchLocation.storyboard; sourceTree = "<group>"; };
 		43ADA40BBC7A998942D97688 /* Pods-sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sample.release.xcconfig"; path = "Target Support Files/Pods-sample/Pods-sample.release.xcconfig"; sourceTree = "<group>"; };
 		96CF866A7A98CE8F33CEDB69 /* Pods_sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D04F16E6A828AE7E86C73139 /* Pods-sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sample.debug.xcconfig"; path = "Target Support Files/Pods-sample/Pods-sample.debug.xcconfig"; sourceTree = "<group>"; };
@@ -81,6 +85,7 @@
 		0BDC34FC2350C6C5001686FC /* sample */ = {
 			isa = PBXGroup;
 			children = (
+				0BDC352A2355D067001686FC /* SearchLocation */,
 				0BDC35252355A29C001686FC /* UIParts */,
 				0BDC35242355A288001686FC /* Extensions */,
 				0BDC35232355A270001686FC /* Cell */,
@@ -123,6 +128,15 @@
 				0BDC35152351A9DA001686FC /* ExTextView.swift */,
 			);
 			path = UIParts;
+			sourceTree = "<group>";
+		};
+		0BDC352A2355D067001686FC /* SearchLocation */ = {
+			isa = PBXGroup;
+			children = (
+				0BDC352B2355D09C001686FC /* SearchLocationViewController.swift */,
+				0BDC352E2355D0C6001686FC /* SearchLocation.storyboard */,
+			);
+			path = SearchLocation;
 			sourceTree = "<group>";
 		};
 		7AEA81A4E3A0CDE0D3ECC5B2 /* Pods */ = {
@@ -204,6 +218,7 @@
 			files = (
 				0BDC350A2350C6CA001686FC /* LaunchScreen.storyboard in Resources */,
 				0BDC352023556F32001686FC /* RatingCell.xib in Resources */,
+				0BDC352F2355D0C6001686FC /* SearchLocation.storyboard in Resources */,
 				0BDC35142350C792001686FC /* TableViewCell.xib in Resources */,
 				0BDC35072350C6CA001686FC /* Assets.xcassets in Resources */,
 				0BDC35292355A3DD001686FC /* ReviewRewardCell.xib in Resources */,
@@ -267,6 +282,7 @@
 				0BDC34FE2350C6C5001686FC /* AppDelegate.swift in Sources */,
 				0BDC351A2351AD8A001686FC /* UIEdgeInsetsExtension.swift in Sources */,
 				0BDC35282355A3DD001686FC /* ReviewRewardCell.swift in Sources */,
+				0BDC352C2355D09C001686FC /* SearchLocationViewController.swift in Sources */,
 				0BDC35002350C6C5001686FC /* SceneDelegate.swift in Sources */,
 				0BDC351F23556F32001686FC /* RatingCell.swift in Sources */,
 			);

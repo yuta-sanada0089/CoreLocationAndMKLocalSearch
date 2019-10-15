@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Search Location View Controller-->
+        <scene sceneID="7pw-mO-KT4">
+            <objects>
+                <viewController useStoryboardIdentifierAsRestorationIdentifier="YES" id="cWT-Fj-z6F" customClass="SearchLocationViewController" customModule="sample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="nMU-IY-gg3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="4Jn-Lc-Zkk">
+                                <rect key="frame" x="0.0" y="44" width="414" height="56"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="GWJ-hY-d37">
+                                <rect key="frame" x="0.0" y="100" width="414" height="796"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="GWJ-hY-d37" firstAttribute="trailing" secondItem="svV-RC-vVp" secondAttribute="trailing" id="18R-eG-94O"/>
+                            <constraint firstItem="4Jn-Lc-Zkk" firstAttribute="trailing" secondItem="svV-RC-vVp" secondAttribute="trailing" id="P5g-kF-QXZ"/>
+                            <constraint firstAttribute="bottom" secondItem="GWJ-hY-d37" secondAttribute="bottom" id="Z3Z-9h-2JW"/>
+                            <constraint firstItem="4Jn-Lc-Zkk" firstAttribute="leading" secondItem="svV-RC-vVp" secondAttribute="leading" id="bc9-S8-VRH"/>
+                            <constraint firstItem="GWJ-hY-d37" firstAttribute="top" secondItem="4Jn-Lc-Zkk" secondAttribute="bottom" id="bdx-sU-OUi"/>
+                            <constraint firstItem="4Jn-Lc-Zkk" firstAttribute="top" secondItem="svV-RC-vVp" secondAttribute="top" id="wGD-iK-RfG"/>
+                            <constraint firstItem="GWJ-hY-d37" firstAttribute="leading" secondItem="svV-RC-vVp" secondAttribute="leading" id="yH3-tn-bAC"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="svV-RC-vVp"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9Ih-4Z-Nbw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="257.97101449275362" y="98.4375"/>
+        </scene>
+    </scenes>
+</document>
